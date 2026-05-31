@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: linear-gradient(to bottom, darkgray , #620b2ec5, white );
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding: 1rem;
+}
+.tabela_grupos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 1.7rem;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+header{
+    line-height: 1.5;
+}
+.titulo_principal{
+    font-size: 3rem;
+    color: black;
+    font-family: "Londrina Solid", sans-serif;
+    color: rgb(244, 209, 10);
+    text-shadow: -5px 2px 12px black;
+}
+.grupos{
+    background-color: rgba(0, 0, 0, 0.767);
+    max-width: 50rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.paises{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1rem; 
+}
+.selecoes img{
+    width: 8rem;
+    height: 6rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    cursor: pointer;
+}
+.selecoes img:hover{
+    transform: scale(1.15);
+    box-shadow: 0 0 15px gold;
+}
+
+.menu ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+.menu li{
+     position: relative;
+}
+.menu a{
+    text-decoration: none;
+    color: #fffb01;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-shadow: -2px 4px 10px black;
+    transition: color 0.5s ease;
+}
+.menu a:hover{
+    color: #1e1e1e;
+}
+.linha_animada::after{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0.2rem;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    background-color: #1e1e1e;
+    transform: scale(0);
+    transform-origin: left;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.linha_animada:hover::after{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/* Overlay */
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0);
+    z-index: 50;
+    pointer-events: none;
+    transition: background 0.4s ease;
+}
+
+.overlay.ativo {
+    background: rgba(0,0,0,0.7);
+    pointer-events: all;
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    background: #1e1e1e;
+    border: 2px solid gold;
+    border-radius: 15px;
+    padding: 2rem;
+    width: 90%;
+    max-width: 550px;
+    max-height: 80vh;
+    overflow-y: auto;
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.modal.ativo {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* Header do modal */
+.modal-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.modal-header img {
+    width: 60px;
+    border-radius: 5px;
+}
+
+.modal-header h2 {
+    color: gold;
+    font-size: 1.5rem;
+}
+
+.modal-header p {
+    color: gray;
+    font-size: 0.9rem;
+}
+
+/* Fechar */
+.modal-fechar {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.modal-fechar:hover {
+    color: gold;
+   
+}
+
+/* Cards de jogo */
+.jogo-card {
+    background: rgba(255, 255, 255, 0.074);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: background 0.3s;
+}
+
+.jogo-card:hover {
+    background: rgba(255,255,255,0.08);
+}
+
+.confronto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.confronto .casa {
+    color: lightblue;
+}
+.confronto .fora {
+    color: lightcoral;
+}
+
+.placar {
+    background: rgba(255, 217, 0, 0.052);
+    color: gold;
+    padding: 0.3rem 0.8rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+.jogo-data {
+    font-size: 0.85rem;
+    color: gray;
+}
+
+.jogo-local {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.4);
+}
+
+/* Badge de status */
+.status {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.status.agendado  { background: rgba(255,255,255,0.1); color: white; }
+.status.ao-vivo   { background: rgba(255,0,0,0.2); color: red; }
+.status.encerrado { background: rgba(0,255,0,0.1); color: lightgreen; }
+
+@media(max-width:900px){
+    .tabela_grupos{
+        grid-template-columns: auto;
+    }
+
+    .selecoes img{
+    width: 5rem;
+    height: 4rem;
+}
+}
+@media(min-width:901px) and (max-width:1200px){
+    .tabela_grupos{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grupos{
+        width: 30rem;
+    }
+     .selecoes img{
+    width: 5rem;
+    height: 4rem;
+     }
+} 
+@media(min-width:1201px) and (max-width:1900px){
+    .tabela_grupos{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .grupos{
+        width: 33rem;
+    }
+     .selecoes img{
+    width: 6rem;
+    height: 4rem;
+     }
+}

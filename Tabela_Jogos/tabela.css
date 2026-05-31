@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(169, 169, 169, 0.586);
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 2rem;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color:beige;
+    box-shadow: 0 0 10px black;
+    color: black;
+}
+td,th{
+    border: 2px solid black;
+    padding: 1rem;
+    text-align: center;
+    
+}
+th{
+    font-size: 1.2rem;
+}
+time{
+    color:#7A1132;
+    text-decoration: underline;
+    font-weight: 600;
+   
+}
+.btn_voltar{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.btn_voltar a{
+    color: rgba(0, 0, 0, 0.619);
+    transition: color 0.5s ease;
+}
+.btn_voltar a:hover{
+    color:  rgba(0, 0, 0, 0.942);
+}
+.datas{
+    background-color: #41B39F;
+}
+.fases_copa{
+    background-color:#F24C23 ;
+}

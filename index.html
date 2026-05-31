@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/tournaments_fifa-world-cup-2026_64x64.football-logos.cc.png" type="image/x-icon">
+    <title>Calendário WC26</title>
+</head>
+<body>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="modal" id="modal">
+        <button class="modal-fechar" id="modalFechar">✕</button>
+        
+        <div class="modal-header">
+            <img src="" id="modalBandeira" alt="">
+            <h2 id="modalPais"></h2>
+            <p id="modalGrupo"></p>
+        </div>
+
+        <div class="modal-jogos" id="modalJogos"></div>
+    </div>
+
+    <!-- resto do seu HTML -->
+    <header>
+        <h1 class="titulo_principal">Copa do Mundo da FIFA 2026</h1>
+        <p>De 11 de junho a 19 de julho de 2026</p>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html" class="linha_animada">Grupos</a></li>
+                <li><a href="/Tabela_Jogos/tabela.html" class="linha_animada">Tabela dos jogos</a></li>
+                <li><a href="#" class="linha_animada">Jogos ao vivo</a></li>
+            </ul>
+        </nav>
+    </header>
+   <main>
+    <section class="tabela_grupos">
+        <div class="grupos">
+            <h1>Grupo A</h1>
+            <div class="paises">
+                <div class="selecoes"><img src="https://flagcdn.com/h240/mx.png" alt="Mexico" class="bandeira" data-nome="México" data-grupo="A"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/za.png" alt="South Africa" class="bandeira" data-nome="África do Sul" data-grupo="A"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/kr.png" alt="Korea" class="bandeira" data-nome="Coréia do Sul" data-grupo="A"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/cz.png" alt="Tcheca" class="bandeira" data-nome="Republica Tcheca" data-grupo="A"></div>
+            </div>
+        </div>
+         <div class="grupos">
+            <h1>Grupo B</h1>
+            <div class="paises">
+                <div class="selecoes"><img src="https://flagcdn.com/h240/ca.png" alt="Canada" class="bandeira" data-nome="Canadá" data-grupo="B"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/ba.png" alt="Bosnia" class="bandeira" data-nome="Bósnia e Herzegovina" data-grupo="B"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/qa.png" alt="Qatar" class="bandeira" data-nome="Qatar" data-grupo="B"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/ch.png" alt="Suíça" class="bandeira" data-nome="Suíça" data-grupo="B"></div>
+            </div>
+        </div>
+         <div class="grupos">
+            <h1>Grupo C</h1>
+            <div class="paises">
+                <div class="selecoes"><img src="https://flagcdn.com/h240/br.png" alt="Brasil"  data-nome="Brasil" data-grupo="C" class="bandeira"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/ma.png" alt="Marrocos" data-nome="Marrocos" data-grupo="C" class="bandeira"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/ht.png" alt="Haiti" data-nome="Haiti" data-grupo="C" class="bandeira"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/gb-sct.png" alt="Escocia" data-nome="Escócia" data-grupo="C" class="bandeira"></div>
+            </div>
+        </div>
+
+         <div class="grupos">
+            <h1>Grupo D</h1>
+            <div class="paises">
+                <div class="selecoes"><img src="https://flagcdn.com/h240/us.png" alt="USA" class="bandeira" data-nome="EUA" data-grupo="D"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/py.png" alt="Paraguai" class="bandeira" data-nome="Paraguai" data-grupo="D"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/au.png" alt="Australia" class="bandeira" data-nome="Austrália" data-grupo="D"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/tr.png" alt="Turquia" class="bandeira" data-nome="Turquia" data-grupo="D"></div>
+            </div>
+        </div>
+        
+         <div class="grupos">
+            <h1>Grupo E</h1>
+            <div class="paises">
+                <div class="selecoes"><img src="https://flagcdn.com/h240/de.png" alt="Alemanha" class="bandeira" data-grupo="E" data-nome="Alemanha"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/cw.png" alt="Curaçao" class="bandeira" data-grupo="E" data-nome="Curaçao"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/ci.png" alt="Costa do Marfim" class="bandeira" data-grupo="E" data-nome="Costa do Marfim"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/ec.png" alt="Equador" class="bandeira" data-grupo="E" data-nome="Equador"></div>
+            </div>
+        </div>
+         <div class="grupos">
+            <h1>Grupo F</h1>
+            <div class="paises">
+                <div class="selecoes"><img src="https://flagcdn.com/h240/nl.png" alt="Holanda" class="bandeira" data-nome="Holanda" data-grupo="F"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/jp.png" alt="Japão" class="bandeira" data-nome="Japão" data-grupo="F"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/se.png" alt="Suécia" class="bandeira" data-nome="Suécia" data-grupo="F"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/tn.png" alt="Tunísia" class="bandeira" data-nome="Tunísia" data-grupo="F"></div>
+            </div>
+        </div>
+         <div class="grupos">
+            <h1>Grupo G</h1>
+            <div class="paises">
+                <div class="selecoes"><img src="https://flagcdn.com/h240/be.png" alt="Bélgica" class="bandeira" data-nome="Bélgica" data-grupo="G"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/eg.png" alt="Egito" class="bandeira" data-nome="Egito" data-grupo="G"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/ir.png" alt="Irã" class="bandeira" data-nome="Irã" data-grupo="G"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/nz.png" alt="Nova Zelândia" class="bandeira" data-nome="Nova Zelândia" data-grupo="G"></div>
+            </div>
+        </div>
+         <div class="grupos">
+            <h1>Grupo H</h1>
+            <div class="paises">
+                <div class="selecoes"><img src="https://flagcdn.com/h240/es.png" alt="Espanha" class="bandeira" data-nome="Espanha" data-grupo="H"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/cv.png" alt="Cabo Verde" class="bandeira" data-nome="Cabo Verde" data-grupo="H"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/sa.png" alt="Arábia Saudita" class="bandeira" data-nome="Arábia Saudita" data-grupo="H"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/uy.png" alt="Uruguai" class="bandeira" data-nome="Uruguai" data-grupo="H"></div>
+            </div>
+        </div>
+         <div class="grupos">
+            <h1>Grupo I</h1>
+            <div class="paises">
+                <div class="selecoes"><img src="https://flagcdn.com/h240/fr.png" alt="França" class="bandeira" data-nome="França" data-grupo="I"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/sn.png" alt="Senegal" class="bandeira" data-nome="Senegal" data-grupo="I"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/iq.png" alt="Iraque" class="bandeira" data-nome="Iraque" data-grupo="I"></div>
+                <div class="selecoes"><img src="https://flagcdn.com/h240/no.png" alt="Noruega" class="bandeira" data-nome="Noruega" data-grupo="I"></div>
+            </div>
+        </div>
+            <div class="grupos">
+                <h1>Grupo J</h1>
+                <div class="paises">
+                    <div class="selecoes"><img src="https://flagcdn.com/h240/ar.png" alt="Argentina" class="bandeira" data-nome="Argentina" data-grupo="J"></div>
+                    <div class="selecoes"><img src="https://flagcdn.com/h240/dz.png" alt="Argélia" class="bandeira" data-nome="Argélia" data-grupo="J"></div>
+                    <div class="selecoes"><img src="https://flagcdn.com/h240/at.png" alt="Áustria" class="bandeira" data-nome="Áustria" data-grupo="J"></div>
+                    <div class="selecoes"><img src="https://flagcdn.com/h240/jo.png" alt="Jordânia" class="bandeira" data-nome="Jordânia" data-grupo="J"></div>
+                </div>
+            </div>
+             <div class="grupos">
+                <h1>Grupo K</h1>
+                <div class="paises">
+                    <div class="selecoes"><img src="https://flagcdn.com/h240/pt.png" alt="Portugal" class="bandeira" data-nome="Portugal" data-grupo="K"></div>
+                    <div class="selecoes"><img src="https://flagcdn.com/h240/cd.png" alt="República Democrática do Congo" class="bandeira" data-nome="República Democrática do Congo" data-grupo="K"></div>
+                    <div class="selecoes"><img src="https://flagcdn.com/h240/uz.png" alt="Uzbequistão" class="bandeira" data-nome="Uzbequistão" data-grupo="K"></div>
+                    <div class="selecoes"><img src="https://flagcdn.com/h240/co.png" alt="Colômbia" class="bandeira" data-nome="Colômbia" data-grupo="K"></div>
+                </div>
+            </div>
+             <div class="grupos">
+                <h1>Grupo L</h1>
+                <div class="paises">
+                    <div class="selecoes"><img src="https://flagcdn.com/h240/gb-eng.png" alt="Inglaterra" class="bandeira" data-nome="Inglaterra" data-grupo="L"></div>
+                    <div class="selecoes"><img src="https://flagcdn.com/h240/hr.png" alt="Croácia" class="bandeira" data-nome="Croácia" data-grupo="L"></div>
+                    <div class="selecoes"><img src="https://flagcdn.com/h240/gh.png" alt="Gana" class="bandeira" data-nome="Gana" data-grupo="L"></div>
+                    <div class="selecoes"><img src="https://flagcdn.com/h240/pa.png" alt="Panamá" class="bandeira" data-nome="Panamá" data-grupo="L"></div>
+                </div>
+            </div>
+        
+    </section>
+   </main>
+<script src="script.js"></script>   
+</body>
+</html>
