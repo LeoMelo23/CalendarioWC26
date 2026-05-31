@@ -229,6 +229,15 @@ const jogos = [
         local: 'Sofi Estadium, Inglewood',
         status: 'agendado'
     },
+    {
+        data: '16/06/2026',
+        hora: '16:00',
+        casa: 'França',
+        fora: 'Senegal',
+        placar: '- : -',
+        local: 'MetLife Stadium, East Rutheford',
+        status: 'agendado'
+    },
     
     
     
@@ -240,7 +249,7 @@ const coresSelecoes = {
     'Argentina':  '#74acdf',
     'Portugal':   '#006600',
     'Alemanha':   '#000000',
-    'França':     '#002395',
+    'França':     '#264093',
     'Espanha':    '#c60b1e',
     'EUA':        '#b22234',
     'México':     '#006847',
