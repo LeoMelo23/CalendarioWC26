@@ -64,7 +64,6 @@ header{
 }
 .menu li{
      position: relative;
-     white-space: nowrap;
 }
 .menu a{
     text-decoration: none;
@@ -78,6 +77,9 @@ header{
 .menu a:hover{
     color: #1e1e1e;
 }
+.linha_animada{
+    position: relative;
+}
 .linha_animada::after{
     content: " ";
     position: absolute;
@@ -89,7 +91,7 @@ header{
     background-color: #1e1e1e;
     transform: scale(0);
     transform-origin: left;
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 0.3s ease, transform 0.5s ease-in-out;
 }
 .linha_animada:hover::after{
     opacity: 1;
@@ -251,6 +253,9 @@ header{
     .selecoes img{
     width: 5rem;
     height: 4rem;
+}
+.menu ul{
+    flex-flow: column nowrap;
 }
 }
 @media(min-width:901px) and (max-width:1200px){

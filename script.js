@@ -267,13 +267,24 @@ const jogos = [
     },
     {
         data: '17/06/2026',
-        hora: '24:00',
+        hora: '14:00',
         casa: 'Portugal',
-        fora: 'República Democrática do Congo',
+        fora: 'RD Congo',
         placar: '- : -',
         local: 'NGR Stadium, Houston',
         status: 'agendado'
     },
+    {
+        data: '17/06/2026',
+        hora: '17:00',
+        casa: 'Inglaterra',
+        fora: 'Croácia',
+        placar: '- : -',
+        local: 'AT&T Stadium, Arlington',
+        status: 'agendado'
+    },
+    
+    
     
     
     
@@ -323,7 +334,7 @@ const coresSelecoes = {
     'Argélia': '#006633',
     'Áustria': '#C8102E',
     'Jordânia': '#CE1126',
-    'República Democrática do Congo': '#007FFF',
+    'RD Congo': '#007FFF',
     'Uzbequistão': '#308738',
     'Colômbia': '#FFCD00',
     'Inglaterra': '#fff',
