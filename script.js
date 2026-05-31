@@ -238,6 +238,33 @@ const jogos = [
         local: 'MetLife Stadium, East Rutheford',
         status: 'agendado'
     },
+    {
+        data: '16/06/2026',
+        hora: '19:00',
+        casa: 'Iraque',
+        fora: 'Noruega',
+        placar: '- : -',
+        local: 'Gillete Stadium, Foxborough',
+        status: 'agendado'
+    },
+    {
+        data: '16/06/2026',
+        hora: '22:00',
+        casa: 'Argentina',
+        fora: 'Argélia',
+        placar: '- : -',
+        local: 'Arrowhead Stadium, Kansas City',
+        status: 'agendado'
+    },
+    {
+        data: '17/06/2026',
+        hora: '01:00',
+        casa: 'Áustria',
+        fora: 'Jordânia',
+        placar: '- : -',
+        local: 'Levis Stadium, Santa Clara',
+        status: 'agendado'
+    },
     
     
     
