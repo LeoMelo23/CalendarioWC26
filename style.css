@@ -8,13 +8,13 @@
 body{
    background-image: linear-gradient(to bottom, darkgray , #620b2ec5, white );
    font-family: Georgia, 'Times New Roman', Times, serif;
-   padding: 1rem;
+   padding: 0.5rem 1rem;
 }
 .tabela_grupos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    margin-top: 1.7rem;
+    margin-top: 1.5rem;
 }
 h1{
     color: white;
@@ -36,7 +36,7 @@ header{
 }
 .grupos{
     background-color: rgba(0, 0, 0, 0.767);
-    max-width: 50rem;
+    max-width: 38rem;
     padding: 2rem;
     border-radius: 10px;
 }
@@ -47,8 +47,8 @@ header{
     margin-top: 1rem; 
 }
 .selecoes img{
-    width: 8rem;
-    height: 6rem;
+    width: 7rem;
+    height: 5rem;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
     cursor: pointer;
 }
