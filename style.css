@@ -64,6 +64,7 @@ header{
 }
 .menu li{
      position: relative;
+     white-space: nowrap;
 }
 .menu a{
     text-decoration: none;

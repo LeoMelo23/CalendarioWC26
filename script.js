@@ -265,6 +265,15 @@ const jogos = [
         local: 'Levis Stadium, Santa Clara',
         status: 'agendado'
     },
+    {
+        data: '17/06/2026',
+        hora: '24:00',
+        casa: 'Portugal',
+        fora: 'República Democrática do Congo',
+        placar: '- : -',
+        local: 'NGR Stadium, Houston',
+        status: 'agendado'
+    },
     
     
     
@@ -291,7 +300,7 @@ const coresSelecoes = {
     'Qatar': '#8A1538',
     'Suíça': '#FF0000',
     'Haiti': '#1c46ee',
-    'Escocia': '#005EB8',
+    'Escócia': '#005EB8',
     'Paraguai': '#D52B1E',
     'Austrália': '#2b50a6',
     'Turquia': '#E30A17',
