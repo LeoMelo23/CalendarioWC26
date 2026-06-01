@@ -97,6 +97,9 @@ header{
     opacity: 1;
     transform: scale(1);
 }
+.selecao{
+    text-shadow: 0 0 8px black;
+}
 
 
 /* Overlay */
