@@ -15,6 +15,8 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
 }
 h1{
     color: white;
@@ -44,7 +46,9 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1.5rem;
-    margin-top: 1rem; 
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center; 
 }
 .selecoes img{
     width: 7rem;
@@ -254,11 +258,14 @@ header{
     }
 
     .selecoes img{
-    width: 5rem;
-    height: 4rem;
+    width: 4.5rem;
+    height: 3.5rem;
 }
 .menu ul{
     flex-flow: column nowrap;
+}
+.grupos{
+    width: 25rem;
 }
 }
 @media(min-width:901px) and (max-width:1200px){
