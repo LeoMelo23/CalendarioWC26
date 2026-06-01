@@ -753,7 +753,7 @@ const coresSelecoes = {
     'Bélgica': '#FDDA25',
     'Egito': '#CE1126',
     'Irã': '#239F40',
-    'Nova Zelândia': '#012169',
+    'Nova Zelândia': '#1c3a81',
     'Cabo Verde': '#003893',
     'Arábia Saudita': '#005430',
     'Uruguai': '#0038A8',

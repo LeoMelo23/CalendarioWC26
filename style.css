@@ -103,7 +103,6 @@ header{
 }
 .selecao{
     text-shadow: 0 0 8px black;
-    white-space: nowrap;
 }
 
 
@@ -212,7 +211,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 .confronto .casa {
@@ -227,11 +226,11 @@ header{
     color: gold;
     padding: 0.3rem 0.8rem;
     border-radius: 8px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .jogo-data {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     color: gray;
 }
 
