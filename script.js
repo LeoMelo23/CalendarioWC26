@@ -24,9 +24,9 @@ function abrirModal(pais) {
         <div class="jogo-card">
             <span class="jogo-data">${jogo.data} às ${jogo.hora}</span>
             <div class="confronto">
-               <span class="selecao" style="color: ${coresSelecoes[jogo.casa] || 'white'}">${jogo.casa}</span>
+               <span class="selecao time_casa" style="color: ${coresSelecoes[jogo.casa] || 'white'}">${jogo.casa}</span>
                 <span class="placar">${jogo.placar}</span>
-                <span class="selecao" style="color: ${coresSelecoes[jogo.fora] || 'white'}">${jogo.fora}</span>
+                <span class="selecao time_fora" style="color: ${coresSelecoes[jogo.fora] || 'white'}">${jogo.fora}</span>
             </div>
             <span class="jogo-local">📍 ${jogo.local}</span>
             <span class="status ${jogo.status}">${jogo.status.toUpperCase()}</span>
