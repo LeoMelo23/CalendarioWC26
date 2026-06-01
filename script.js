@@ -89,7 +89,7 @@ const jogos = [
         data: '12/06/2026',
         hora: '16:00',
         casa: 'Canadá',
-        fora: 'Bósnia',
+        fora: 'Bósnia e Herzegovina',
         placar: '- : -',
         local: 'BMO Field, Toronto',
         status: 'agendado'
@@ -297,7 +297,7 @@ const jogos = [
         data: '18/06/2026',
         hora: '16:00',
         casa: 'Suíça',
-        fora: 'Bósnia',
+        fora: 'Bósnia e Herzegovina',
         placar: '- : -',
         local: 'Sofi Estadium, Inglewood',
         status: 'agendado'
@@ -512,7 +512,7 @@ const jogos = [
      {
         data: '24/06/2026',
         hora: '16:00',
-        casa: 'Bósnia',
+        casa: 'Bósnia e Herzegovina',
         fora: 'Qatar',
         placar: '- : -',
         local: 'Lumen Field, Seattle',
@@ -736,7 +736,7 @@ const coresSelecoes = {
     'Coréia do Sul': '#fff',
     'Tchéquia': '#11457E',
     'Canadá': '#FF0000',
-    'Bósnia': '#163494',
+    'Bósnia e Herzegovina': '#163494',
     'Qatar': '#8A1538',
     'Suíça': '#FF0000',
     'Haiti': '#1c46ee',

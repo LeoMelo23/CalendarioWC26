@@ -288,11 +288,8 @@ header{
      }
 } 
 @media(min-width:1201px) and (max-width:1900px){
-    .tabela_grupos{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
     .grupos{
-        width: 33rem;
+        width: 30rem;
     }
      .selecoes img{
     width: 6rem;
