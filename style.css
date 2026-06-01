@@ -103,6 +103,7 @@ header{
 }
 .selecao{
     text-shadow: 0 0 8px black;
+    white-space: nowrap;
 }
 
 
