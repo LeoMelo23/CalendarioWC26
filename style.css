@@ -38,7 +38,7 @@ header{
 }
 .grupos{
     background-color: rgba(0, 0, 0, 0.767);
-    max-width: 38rem;
+    max-width: 100%;
     padding: 2rem;
     border-radius: 10px;
 }
@@ -245,7 +245,10 @@ header{
     font-size: 0.8rem;
     color: rgba(255,255,255,0.4);
 }
-
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
 /* Badge de status */
 .status {
     display: inline-block;
@@ -270,9 +273,6 @@ header{
 }
 .menu ul{
     flex-flow: column nowrap;
-}
-.grupos{
-    width: 25rem;
 }
 }
 @media(min-width:901px) and (max-width:1200px){

@@ -118,7 +118,7 @@ const jogos = [
         casa: 'Brasil',
         fora: 'Marrocos',
         placar: '- : -',
-        local: 'MetLife Stadium, Los Angeles',
+        local: 'MetLife Stadium, East Rutherford',
         status: 'agendado'
     },
     {
@@ -692,7 +692,7 @@ const jogos = [
     },
      {
         data: '27/06/2026',
-        hora: '27:30',
+        hora: '20:30',
         casa: 'RD Congo',
         fora: 'Uzbequistão',
         placar: '- : -',
@@ -724,14 +724,13 @@ const coresSelecoes = {
     'Brasil':     '#009c3b',
     'Argentina':  '#74acdf',
     'Portugal':   '#006600',
-    'Alemanha':   '#000000',
+    'Alemanha':   '#DD0000',
     'França':     '#264093',
     'Espanha':    '#c60b1e',
     'EUA':        '#b22234',
     'México':     '#006847',
     'Japão':      '#bc002d',
     'Marrocos':   '#c1272d',
-    'México':     '#006847',
     'África do Sul':'#006847',
     'Coréia do Sul': '#fff',
     'Tchéquia': '#11457E',
